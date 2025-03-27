@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f3f3f3;
+  width: 1120px;
+  margin: auto;
+}
+
+/* header */
+
+header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 109px;
+}
+header .nav {
+  display: flex;
+  gap: 30px;
+}
+header h2 {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 97%;
+  letter-spacing: -3%;
+  color: #181717;
+}
+header .nav p {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: -3%;
+  color: #181717;
+}
+
+/* section */
+
+section h1 {
+  margin-bottom: 32px;
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 97%;
+  letter-spacing: -3%;
+  color: #181717;
+}
+section p {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 117%;
+  letter-spacing: -3%;
+  color: #606060;
+  margin-bottom: 52px;
+}
+section .input-1 {
+  margin-bottom: 30px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+section .input-2 {
+  margin-bottom: 30px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+section .input-1 .up {
+  width: 676px;
+  height: 50px;
+
+  border-width: 1px;
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+}
+section .input-2 .down {
+  width: 676px;
+  height: 50px;
+
+  border-width: 1px;
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+}
+section .input-2 p {
+  margin-right: 217px;
+}
+section button {
+  margin-bottom: 102px;
+  width: 162px;
+  height: 42px;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  border-width: 0;
+  border-radius: 5px;
+  color: #f3f3f3;
+  background-color: #000000;
+}
+
+/* footer */
+footer {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+footer .nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+footer p {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: -3%;
+  color: #2429af;
+}
+footer .nav a {
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: -3%;
+  color: #181717;
+  text-decoration: none;
+}
